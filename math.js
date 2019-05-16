@@ -18,6 +18,15 @@ var sum = a + Number(b) + Number(c) + Number(d) +e
 
 document.write(sum+"<br>")
 document.write("<br>")
+
+var num=[7, 14, 21, 36, 42]
+var sum1=0
+
+for (i=0;i<num.length; i++)	{ //i is the var middle is the condition to the loop
+		sum1=sum1+num[i]
+		document.write("This is the calculation "+(i+1)+" " + sum1 +"<br>");
+	}
+document.write("<br>")
 document.write("<br>")
 document.write("<hr>")
 document.write("<br>")
