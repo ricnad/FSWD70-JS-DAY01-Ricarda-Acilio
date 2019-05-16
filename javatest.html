@@ -10,6 +10,7 @@
 
 	<script>
 		
+		//Basic
 		//exercise 1
 		
 		console.log("Hello from the Console");
@@ -26,7 +27,37 @@
 		//exercise 4
 		var players=["Martin","Thomas","Peter","Mathias","Nicky"];
 		console.log("The most valuable player of the match is "+ players[2]);
-		
+		//Intermediate
+		//exercise 1
+
+		var cars=[" Audi"," Tesla"," Renault"," Volvo"," Mazda"," Fiat"," Ferrari"];
+		document.write(cars.sort()+"<br>");
+
+		//exercise 2
+
+		var fruit=["Apple","Kiwi","Banana"];
+		 fruit.push("Orange");
+		document.write (fruit.sort()+"<br>");
+		document.write (fruit+"<br>");
+		var animals=["Monkey","Horse","Dog"];
+		document.write (animals.reverse()+"<br>");
+		animals.push("Cat");
+		animals[4]="Dolphin"; //just another way of insert
+		document.write (animals.sort()+"<br>");
+		animals.unshift("Whale");
+		document.write(animals+"<br>");
+
+		//exercise 3
+
+		var fruitSalad = "mango/cherries/kiwi/grapes/pear/peach/orange/lemon";
+		var singleFruit = new Array();
+		singleFruit = fruitSalad.split('/').join(" ");
+		document.write(singleFruit+"<br>");
+		document.write(singleFruit[2]+"<br>"); //this way no come comes together
+
+		//exercise 4
+
+
 
 
 
