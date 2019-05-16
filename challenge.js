@@ -19,6 +19,16 @@ var  vienna = [
 ["Vienna ","is ","a ","nice ","city "]
 ]
 
+document.write("<br>")
+document.write("Loop=")
+
+for (i=0;i<vienna.length; i++)	{ //i is the var middle is the condition to the loop
+		document.write(vienna[i][i]);
+	}
+
+	document.write("<br>")
+	document.write("<hr>")
+
 
 document.write(vienna[0][0]+vienna[1][1]+vienna[2][2]+vienna[3][3]+vienna[4][4])
 document.write("<br>")
